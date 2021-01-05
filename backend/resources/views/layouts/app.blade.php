@@ -76,9 +76,11 @@
         </nav>
 
         <main class="py-4">
-          <router-view></router-view>
+          <div id="app">
+            <example-component></example-component>
+          </div>
         </main>
     </div>
+    <script src="{{ mix('js/app.js') }}"></script>
 </body>
-<script src="{{ mix('js/app.js') }}"></script>
 </html>
